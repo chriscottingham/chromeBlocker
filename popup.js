@@ -11,5 +11,6 @@ function hideAmazonStuff() {
 }
 
 window.addEventListener("load", (event) => {
+    let button = document.getElementById("hideStuff");
     button.addEventListener("click", (event) => hideAmazonStuff());
 });
