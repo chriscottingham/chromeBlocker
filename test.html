@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script>
+        function testIteration() {
+            let holder = {};
+            holder.values = ["onex", "twox"];
+            iterate(holder);
+        }
+        function iterate(holder) {
+            for (let value of holder.values) {
+                console.log("value " + value);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="testIteration()">Test Iteration</button>
+    <video> some stuff</video>
+</body>
+
+</html>
